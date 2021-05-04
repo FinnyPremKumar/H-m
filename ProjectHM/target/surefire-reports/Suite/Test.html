@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 04 18:55:23 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>349 seconds (349312 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testscripts.HmProject.shoppingBag()'><b>shoppingBag</b><br>Test class: com.qa.testscripts.HmProject<br/>
+<a href="#Output-1835794313" onClick='toggleBox("Output-1835794313", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1835794313" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1835794313">
+The user is checking Bag<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.qa.testscripts.HmProject@72b6cbcc</td></tr>
+<tr>
+<td title='com.qa.testscripts.HmProject.searchgItems()'><b>searchgItems</b><br>Test class: com.qa.testscripts.HmProject<br>Parameters: socks<br/>
+<a href="#Output-472959877" onClick='toggleBox("Output-472959877", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-472959877" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-472959877">
+Navigating back<br/>
+</div>
+</td>
+<td></td>
+<td>55</td>
+<td>com.qa.testscripts.HmProject@72b6cbcc</td></tr>
+<tr>
+<td title='com.qa.testscripts.HmProject.searchgItems()'><b>searchgItems</b><br>Test class: com.qa.testscripts.HmProject<br>Parameters: shoes<br/>
+<a href="#Output-1953175805" onClick='toggleBox("Output-1953175805", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1953175805" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1953175805">
+Navigating back<br/>
+</div>
+</td>
+<td></td>
+<td>50</td>
+<td>com.qa.testscripts.HmProject@72b6cbcc</td></tr>
+<tr>
+<td title='com.qa.testscripts.HmProject.login()'><b>login</b><br>Test class: com.qa.testscripts.HmProject</td>
+<td></td>
+<td>9</td>
+<td>com.qa.testscripts.HmProject@72b6cbcc</td></tr>
+<tr>
+<td title='com.qa.testscripts.HmProject.categories()'><b>categories</b><br>Test class: com.qa.testscripts.HmProject</td>
+<td></td>
+<td>46</td>
+<td>com.qa.testscripts.HmProject@72b6cbcc</td></tr>
+<tr>
+<td title='com.qa.testscripts.HmProject.searchgItems()'><b>searchgItems</b><br>Test class: com.qa.testscripts.HmProject<br>Parameters: joggers<br/>
+<a href="#Output-1458152564" onClick='toggleBox("Output-1458152564", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1458152564" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1458152564">
+Navigating back<br/>
+</div>
+</td>
+<td></td>
+<td>68</td>
+<td>com.qa.testscripts.HmProject@72b6cbcc</td></tr>
+<tr>
+<td title='com.qa.testscripts.HmProject.acceptCookies()'><b>acceptCookies</b><br>Test class: com.qa.testscripts.HmProject<br/>
+<a href="#Output-1107985860" onClick='toggleBox("Output-1107985860", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1107985860" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1107985860">
+Cookies are accepted!! Ready to Sign in...<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testscripts.HmProject@72b6cbcc</td></tr>
+<tr>
+<td title='com.qa.testscripts.HmProject.failedLogin()'><b>failedLogin</b><br>Test class: com.qa.testscripts.HmProject<br/>
+<a href="#Output-2095788421" onClick='toggleBox("Output-2095788421", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2095788421" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2095788421">
+The user should register with hm account or should enter valid email/ password<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.qa.testscripts.HmProject@72b6cbcc</td></tr>
+<tr>
+<td title='com.qa.testscripts.HmProject.searchgItems()'><b>searchgItems</b><br>Test class: com.qa.testscripts.HmProject<br>Parameters: slippers<br/>
+<a href="#Output-730575236" onClick='toggleBox("Output-730575236", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-730575236" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-730575236">
+Navigating back<br/>
+</div>
+</td>
+<td></td>
+<td>60</td>
+<td>com.qa.testscripts.HmProject@72b6cbcc</td></tr>
+<tr>
+<td title='com.qa.testscripts.HmProject.logOut()'><b>logOut</b><br>Test class: com.qa.testscripts.HmProject<br/>
+<a href="#Output-191614132" onClick='toggleBox("Output-191614132", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-191614132" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-191614132">
+Signing Out<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.qa.testscripts.HmProject@72b6cbcc</td></tr>
+</table><p>
+</body>
+</html>

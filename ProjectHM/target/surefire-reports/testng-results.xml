@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[Cookies are accepted!! Ready to Sign in...]]>
+    </line>
+    <line>
+      <![CDATA[The user should register with hm account or should enter valid email/ password]]>
+    </line>
+    <line>
+      <![CDATA[Navigating back]]>
+    </line>
+    <line>
+      <![CDATA[Navigating back]]>
+    </line>
+    <line>
+      <![CDATA[Navigating back]]>
+    </line>
+    <line>
+      <![CDATA[Navigating back]]>
+    </line>
+    <line>
+      <![CDATA[The user is checking Bag]]>
+    </line>
+    <line>
+      <![CDATA[Signing Out]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="349312" started-at="2021-05-04T18:55:23 IST" finished-at="2021-05-04T19:01:13 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="349312" started-at="2021-05-04T18:55:23 IST" finished-at="2021-05-04T19:01:13 IST">
+      <class name="com.qa.testscripts.HmProject">
+        <test-method status="PASS" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.HmProject@72b6cbcc]" name="setUp" is-config="true" duration-ms="11394" started-at="2021-05-04T18:55:24 IST" finished-at="2021-05-04T18:55:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www2.hm.com/en_in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="acceptCookies()[pri:-1, instance:com.qa.testscripts.HmProject@72b6cbcc]" name="acceptCookies" duration-ms="413" started-at="2021-05-04T18:55:35 IST" finished-at="2021-05-04T18:55:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Cookies are accepted!! Ready to Sign in...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- acceptCookies -->
+        <test-method status="PASS" signature="failedLogin()[pri:1, instance:com.qa.testscripts.HmProject@72b6cbcc]" name="failedLogin" duration-ms="13680" started-at="2021-05-04T18:55:36 IST" finished-at="2021-05-04T18:55:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[The user should register with hm account or should enter valid email/ password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- failedLogin -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.qa.testscripts.HmProject@72b6cbcc]" name="login" duration-ms="9463" started-at="2021-05-04T18:55:49 IST" finished-at="2021-05-04T18:55:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="categories()[pri:3, instance:com.qa.testscripts.HmProject@72b6cbcc]" name="categories" duration-ms="46794" started-at="2021-05-04T18:55:59 IST" finished-at="2021-05-04T18:56:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categories -->
+        <test-method status="PASS" signature="searchgItems(java.lang.String)[pri:4, instance:com.qa.testscripts.HmProject@72b6cbcc]" name="searchgItems" duration-ms="50396" started-at="2021-05-04T18:56:47 IST" data-provider="getData" finished-at="2021-05-04T18:57:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigating back]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchgItems -->
+        <test-method status="PASS" signature="searchgItems(java.lang.String)[pri:4, instance:com.qa.testscripts.HmProject@72b6cbcc]" name="searchgItems" duration-ms="60872" started-at="2021-05-04T18:57:37 IST" data-provider="getData" finished-at="2021-05-04T18:58:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[slippers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigating back]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchgItems -->
+        <test-method status="PASS" signature="searchgItems(java.lang.String)[pri:4, instance:com.qa.testscripts.HmProject@72b6cbcc]" name="searchgItems" duration-ms="68863" started-at="2021-05-04T18:58:38 IST" data-provider="getData" finished-at="2021-05-04T18:59:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[joggers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigating back]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchgItems -->
+        <test-method status="PASS" signature="searchgItems(java.lang.String)[pri:4, instance:com.qa.testscripts.HmProject@72b6cbcc]" name="searchgItems" duration-ms="55507" started-at="2021-05-04T18:59:47 IST" data-provider="getData" finished-at="2021-05-04T19:00:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[socks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigating back]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchgItems -->
+        <test-method status="PASS" signature="shoppingBag()[pri:5, instance:com.qa.testscripts.HmProject@72b6cbcc]" name="shoppingBag" duration-ms="11070" started-at="2021-05-04T19:00:43 IST" finished-at="2021-05-04T19:00:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[The user is checking Bag]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shoppingBag -->
+        <test-method status="PASS" signature="logOut()[pri:6, instance:com.qa.testscripts.HmProject@72b6cbcc]" name="logOut" duration-ms="13299" started-at="2021-05-04T19:00:54 IST" finished-at="2021-05-04T19:01:07 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Signing Out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscripts.HmProject@72b6cbcc]" name="tearDown" is-config="true" duration-ms="5711" started-at="2021-05-04T19:01:07 IST" finished-at="2021-05-04T19:01:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.HmProject -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
