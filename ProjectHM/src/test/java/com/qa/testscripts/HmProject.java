@@ -14,7 +14,7 @@ public class HmProject extends HmTestBase
 {
 	Actions act;
 	
-	@Test
+	@Test(priority = -1)
 	public void acceptCookies()
 	{
 		WebElement cookies=driver.findElement(By.xpath("/html/body/div[10]/div[3]/div/div/div[2]/div/div/button"));
@@ -102,8 +102,6 @@ public class HmProject extends HmTestBase
 		act.click(driver.findElement(By.xpath("/html/body/header/nav/ul[2]/li[7]/a/span")));
 		act.build().perform();
 		Thread.sleep(1000);
-		
-		
 	}
 	
 	
@@ -170,7 +168,7 @@ public class HmProject extends HmTestBase
 	@DataProvider
 	public String[][] getData() throws IOException
 	{
-		String xlPath="S:\\Virtusa\\LP_Training_Project_Docs\\ProjectHM\\src\\test\\java\\com\\qa\\testdata\\TestData.xlsx";
+		String xlPath="C:\\Users\\prem dfp\\git\\H&M\\ProjectHM\\src\\test\\java\\com\\qa\\testdata\\TestData.xlsx";
 		String xlSheet="Sheet2";
 		
 		int rowCount=ExcelUtility.getRowCount(xlPath, xlSheet);

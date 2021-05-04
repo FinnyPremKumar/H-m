@@ -10,8 +10,12 @@
     <classes>
       <class name="com.qa.testscripts.HmProject">
         <methods>
+          <include name="categories"/>
+          <include name="shoppingBag"/>
+          <include name="acceptCookies"/>
           <include name="setUp"/>
-          <include name="searchgItems" invocation-numbers="1 2"/>
+          <include name="logOut"/>
+          <include name="searchgItems" invocation-numbers="0 1 2 3"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.testscripts.HmProject -->

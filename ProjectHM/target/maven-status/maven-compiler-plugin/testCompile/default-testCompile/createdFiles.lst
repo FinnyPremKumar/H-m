@@ -1,0 +1,5 @@
+com\qa\utility\ExcelUtility.class
+com\qa\testpages\HmPages.class
+com\qa\testscripts\HmTestBase.class
+com\qa\utility\Reporting.class
+com\qa\testscripts\HmProject.class
